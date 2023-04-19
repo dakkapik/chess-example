@@ -22,7 +22,7 @@ class Board {
                 } else {
                     fill('black')
                 }
-                rect(i*cellWidth,j*this.cellWidth, this.cellWidth,this.cellWidth) 
+                rect(i*this.cellWidth,j*this.cellWidth, this.cellWidth,this.cellWidth) 
                 this.checkBool = !this.checkBool
                 }
                 this.checkBool = !this.checkBool
