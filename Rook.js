@@ -11,8 +11,8 @@ class Rook extends Board {
         for(let x = 0; x < this.board[0].length; x++){
           if(x === this.x || y ===this.y){
             rect(
-              this.x*this.cellWidth, 
-              this.y*this.cellWidth, 
+              x*this.cellWidth, 
+              y*this.cellWidth, 
               this.cellWidth, 
               this.cellWidth
             )
